@@ -7,14 +7,20 @@ const router = express.Router()
 // @route   GET /
 
 router.get('/', (req, res) => {
-    res.render('login')
+    res.render('login', {
+        layout: 'login',
+    })
 })
 
 // @desc    Dashboard
 // @route   GET /dashboard
 
 router.get('/dashboard', (req, res) => {
-    res.render('dashboard')
+    res.render('dashboard', {
+        layout: 'dashboard',
+    })
 })
+
+
 
 module.exports = router;
