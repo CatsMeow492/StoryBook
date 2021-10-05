@@ -24,7 +24,7 @@ router.get(
 // @desc    Logout User
 // @route   /auth/logout
 router.get('/logout', (req, res) => {
-    res.logout()
+    req.logout()
     res.redirect('/')
 })
 /*

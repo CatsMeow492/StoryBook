@@ -8,12 +8,12 @@ const StorySchema = new mongoose.Schema({
     },
     body: {
         type: String,
-        required: true
+        required: true,
     },
     status: {
         type: String,
         default: 'public',
-        enum: ['public', 'private']
+        enum: ['public', 'private'],
     },
     user: {
         type: mongoose.Schema.Types.ObjectId,
