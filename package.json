@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/CatsMeow492/stories-app#readme",
   "dependencies": {
-    "connect-mongo": "^4.6.0",
+    "connect-mongo": "^3.2.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.3",
@@ -29,6 +29,7 @@
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
     "passport-facebook": "^3.0.0",
+    "passport-google-oauth": "^2.0.0",
     "passport-google-oauth20": "^2.0.0",
     "session": "^0.1.0"
   },
